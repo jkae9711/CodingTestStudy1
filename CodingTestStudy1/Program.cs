@@ -10,7 +10,18 @@ namespace CodingTestStudy1
     {
         static void Main(string[] args)
         {
+            #region Week1
 
+            //Week1 test = new Week1();
+
+            //foreach (var item in test.solution(new string[] { "sun", "bed", "car" }, 1))
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //Console.ReadLine();
+
+            #endregion
         }
     }
 }
