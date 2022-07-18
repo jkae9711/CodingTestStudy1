@@ -32,7 +32,27 @@ namespace CodingTestStudy1
 
             #endregion
 
+            #region Week3_1
 
+            //Week3_1 test = new Week3_1();
+
+            //List<int> lstTemp = new List<int>();
+
+            //for (int i = 1; i < 500; i++)
+            //{
+            //    lstTemp.Add(i);
+            //}
+
+            //Console.WriteLine(test.solution(lstTemp.ToArray()));
+            //Console.ReadLine();
+
+            #endregion
+
+            #region Week3_2
+
+
+
+            #endregion
         }
     }
 }
