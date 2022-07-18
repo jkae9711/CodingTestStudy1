@@ -50,7 +50,10 @@ namespace CodingTestStudy1
 
             #region Week3_2
 
+            Week3_2 test = new Week3_2();
 
+            Console.WriteLine(test.solution(50));
+            Console.ReadLine();
 
             #endregion
         }
