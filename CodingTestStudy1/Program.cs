@@ -50,10 +50,26 @@ namespace CodingTestStudy1
 
             #region Week3_2
 
-            Week3_2 test = new Week3_2();
+            //Week3_2 test = new Week3_2();
 
-            Console.WriteLine(test.solution(50));
+            //Console.WriteLine(test.solution(50));
+            //Console.ReadLine();
+
+            #endregion
+
+            #region Week4_1
+
+            Week4_1 test = new Week4_1();
+
+            //Console.WriteLine(test.solution(new string[] { "muzi", "frodo", "apeach", "neo" }, new string[] { "muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi" }, 2));
+            Console.WriteLine(test.solution(new string[] { "con", "ryan" }, new string[] { "ryan con", "ryan con", "ryan con", "ryan con" }, 2));
             Console.ReadLine();
+
+            #endregion
+
+            #region Week4_2
+
+
 
             #endregion
         }
