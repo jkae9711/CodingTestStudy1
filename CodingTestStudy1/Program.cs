@@ -59,17 +59,20 @@ namespace CodingTestStudy1
 
             #region Week4_1
 
-            Week4_1 test = new Week4_1();
+            //Week4_1 test = new Week4_1();
 
             //Console.WriteLine(test.solution(new string[] { "muzi", "frodo", "apeach", "neo" }, new string[] { "muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi" }, 2));
-            Console.WriteLine(test.solution(new string[] { "con", "ryan" }, new string[] { "ryan con", "ryan con", "ryan con", "ryan con" }, 2));
-            Console.ReadLine();
+            //Console.WriteLine(test.solution(new string[] { "con", "ryan" }, new string[] { "ryan con", "ryan con", "ryan con", "ryan con" }, 2));
+            //Console.ReadLine();
 
             #endregion
 
             #region Week4_2
 
+            //Week4_2 test = new Week4_2();
 
+            //Console.WriteLine(test.solution( new int[] { 1, 1, 9, 1, 1, 1, 5, 7, 8, 1, 2, 3, 7, 5, 4, 3, 2, 1, 4, 6, 9, 7, 5, 3, 2, 4, 6, 8, 1, 1, 2, 3, 7, 5, 4, 3, 2, 1, 4, 6, 9, 7, 5, 3, 2, 1, 2, 3, 7, 5, 4, 3, 2, 1, 4, 6, 9, 7, 5, 3, 2, 1, 2, 3, 7, 5, 4, 3, 2, 1, 4, 6, 9, 7, 5, 3, 2, 1, 2, 3, 7, 5, 4, 3, 2, 1, 4, 6, 9, 7, 5, 3, 2 }, 37 ));
+            //Console.ReadLine();
 
             #endregion
         }
