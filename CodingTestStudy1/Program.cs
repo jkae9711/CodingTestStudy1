@@ -75,6 +75,21 @@ namespace CodingTestStudy1
             //Console.ReadLine();
 
             #endregion
+
+            #region Week5_1
+
+            //Week5_1 test = new Week5_1();
+
+            //Console.WriteLine(test.solution(new int[] { 1, 1, 1, 1, 1 }, 3));
+            //Console.ReadLine();
+
+            #endregion
+
+            #region Week5_2
+
+
+
+            #endregion
         }
     }
 }
