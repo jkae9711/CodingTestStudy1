@@ -87,6 +87,24 @@ namespace CodingTestStudy1
 
             #region Week5_2
 
+            //Week5_2 test = new Week5_2();
+
+            //Console.WriteLine(test.solution(new int[] { 3, 30, 34, 5, 9 }));
+            //Console.ReadLine();
+
+            #endregion
+
+            #region Week6_1
+
+            Week6_1 test = new Week6_1();
+
+            Console.WriteLine(test.solution(2, 10, new int[] { 7, 4, 5, 6 }));
+            Console.ReadLine();
+
+            #endregion
+
+            #region Week6_2
+
 
 
             #endregion
