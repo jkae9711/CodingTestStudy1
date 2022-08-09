@@ -1,8 +1,10 @@
 *.vs
 *.sln
 
+/packages
+
 /CodingTestStudy1/bin
 /CodingTestStudy1/obj
 /CodingTestStudy1/Properties
-/CodingTestStudy1/App.config
 /CodingTestStudy1/CodingTestStudy1.csproj
+/CodingTestStudy1/*.config
