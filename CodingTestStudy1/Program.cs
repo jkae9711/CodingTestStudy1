@@ -96,16 +96,19 @@ namespace CodingTestStudy1
 
             #region Week6_1
 
-            Week6_1 test = new Week6_1();
+            //Week6_1 test = new Week6_1();
 
-            Console.WriteLine(test.solution(2, 10, new int[] { 7, 4, 5, 6 }));
-            Console.ReadLine();
+            //Console.WriteLine(test.solution(2, 10, new int[] { 7, 4, 5, 6 }));
+            //Console.ReadLine();
 
             #endregion
 
             #region Week6_2
 
+            Week6_2 test = new Week6_2();
 
+            Console.WriteLine(test.solution( new string[,] { { "yellow_hat", "headgear" }, { "blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}} ));
+            Console.ReadLine();
 
             #endregion
         }
