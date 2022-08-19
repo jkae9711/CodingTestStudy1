@@ -1,8 +1,5 @@
 ﻿// #Week7_1 : H-Index
 
-using System;
-using System.Linq;
-
 public class Week7_1
 {
     public int solution(int[] citations)

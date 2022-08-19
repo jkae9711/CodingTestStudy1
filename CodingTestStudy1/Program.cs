@@ -123,10 +123,10 @@ namespace CodingTestStudy1
 
             #region Week7_2
 
-            Week7_2 test = new Week7_2();
+            //Week7_2 test = new Week7_2();
 
-            Console.WriteLine(test.solution(new int[] { 1, 2, 3, 2, 3 }));
-            Console.ReadLine();
+            //Console.WriteLine(test.solution(new int[] { 1, 2, 3, 2, 3 }));
+            //Console.ReadLine();
 
             #endregion
         }
