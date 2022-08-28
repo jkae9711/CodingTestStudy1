@@ -132,19 +132,19 @@ namespace CodingTestStudy1
 
             #region Week8_1
 
-            //Week8_1 test = new Week8_1();
+            Week8_1 test = new Week8_1();
 
-            //Console.WriteLine(test.solution("011"));
-            //Console.ReadLine();
+            Console.WriteLine(test.solution("1234567"));
+            Console.ReadLine();
 
             #endregion
 
             #region Week8_2
 
-            Week8_2 test = new Week8_2();
+            //Week8_2 test = new Week8_2();
 
-            Console.WriteLine(test.solution(4996, 1557504));
-            Console.ReadLine();
+            //Console.WriteLine(test.solution(4996, 1557504));
+            //Console.ReadLine();
 
             #endregion
         }
