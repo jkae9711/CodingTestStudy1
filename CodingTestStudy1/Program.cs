@@ -134,7 +134,7 @@ namespace CodingTestStudy1
 
             Week8_1 test = new Week8_1();
 
-            Console.WriteLine(test.solution("1234567"));
+            Console.WriteLine(test.solution("024"));
             Console.ReadLine();
 
             #endregion

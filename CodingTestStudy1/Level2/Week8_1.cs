@@ -60,17 +60,16 @@ public class Week8_1
         for (int i = 0; i < lstNeedCheckPrimeNumberDistinct.Count; i++)
         {
             bool bIsPrimeNumber = true;
-            bool bIsPrimeNumber2 = true;
 
             if (lstNeedCheckPrimeNumberDistinct[i] == 0 || lstNeedCheckPrimeNumberDistinct[i] == 1)
                 continue;
 
-            for (int j = 2; j < Math.Sqrt(lstNeedCheckPrimeNumberDistinct[i]); j++)
+            for (int j = 2; j <= Math.Sqrt(lstNeedCheckPrimeNumberDistinct[i]); j++)
             {
                 if (lstNeedCheckPrimeNumberDistinct[i] % j == 0)
                 {
                     bIsPrimeNumber = false;
-                    
+
                     break;
                 }
             }
@@ -78,24 +77,7 @@ public class Week8_1
             if (bIsPrimeNumber)
             {
                 iAnswer++;
-                Console.WriteLine("sqrt : " + i);
-            }
-
-            //for (int j = 2; j < lstNeedCheckPrimeNumberDistinct[i]; j++)
-            //{
-            //    if (lstNeedCheckPrimeNumberDistinct[i] % j == 0)
-            //    {
-            //        bIsPrimeNumber2 = false;
-            //        Console.WriteLine("normal : " + i);
-
-            //        break;
-            //    }
-            //}
-
-            if (bIsPrimeNumber2)
-            {
-                iAnswer++;
-                Console.WriteLine("normal : " + i);
+                Console.WriteLine("PrimeNumberIs : " + i);
             }
         }
 
