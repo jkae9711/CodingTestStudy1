@@ -37,14 +37,15 @@ public class Week8_1
 
             for (int j = 0; j < strTemp.Length; j++)
             {
+                char[] temp = (char[])strTemp.Clone();
+
                 for (int k = 0; k < strTemp.Length; k++)
                 {
-                    char[] temp = (char[])strTemp.Clone();
-
                     var temp2 = temp[j];
+
                     temp[j] = temp[k];
                     temp[k] = temp2;
-
+                        
                     StringBuilder sbtemptemp = new StringBuilder();
 
                     foreach (var item in temp)
