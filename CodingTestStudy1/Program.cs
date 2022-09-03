@@ -150,19 +150,19 @@ namespace CodingTestStudy1
 
             #region Week9_1
 
-            Week9_1 test = new Week9_1();
+            //Week9_1 test = new Week9_1();
 
-            Console.WriteLine(test.solution("-1 -2 -3 -4"));
-            Console.ReadLine();
+            //Console.WriteLine(test.solution("-1 -2 -3 -4"));
+            //Console.ReadLine();
 
             #endregion
 
             #region Week9_2
 
-            //Week9_2 test = new Week9_2();
+            Week9_2 test = new Week9_2();
 
-            //Console.WriteLine(test.solution());
-            //Console.ReadLine();
+            Console.WriteLine(test.solution("4177252841", 4));
+            Console.ReadLine();
 
             #endregion
         }
