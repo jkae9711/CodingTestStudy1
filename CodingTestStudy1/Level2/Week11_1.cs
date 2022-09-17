@@ -1,6 +1,5 @@
 ﻿// Week11_1 : 최솟값 만들기
 
-using System;
 using System.Collections.Generic;
 using System.Linq;
 

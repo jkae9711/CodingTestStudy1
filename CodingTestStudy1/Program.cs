@@ -168,13 +168,16 @@ namespace CodingTestStudy1
 
             #region Week11_1
 
-
+            // 테스트 없이 한번에 풀렷다 굳
 
             #endregion
 
             #region Week11_2
 
+            Week11_2 test = new Week11_2();
 
+            Console.WriteLine(test.solution("CBD", new string[] { "BACDE", "CBADF", "AECB", "BDA" }));
+            Console.ReadLine();
 
             #endregion
 
