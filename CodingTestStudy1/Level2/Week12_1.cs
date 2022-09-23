@@ -5,17 +5,46 @@ public class Week12_1
     public string solution(string s)
     {
         string answer = "";
+        int iIndex = 0;
+        bool bNeedToCapital = true;
 
-        string[] strInput = s.Split(' '); // 공백을 기준으로 Split
-
-        for (int i = 0; i < strInput.Length; i++)
+        while (iIndex < s.Length) // 마지막 인덱스 이후에는 break
         {
-            if (char.IsLetter(strInput[i][0]) == true) // 문자인 경우
-                answer += char.ToUpper(strInput[i][0]) + strInput[i].Substring(1, strInput[i].Length - 1) + " ";
-            else // 문자가 아닌 경우
-                answer += strInput[i] + " ";
+            if (s[iIndex] == ' ') // 현재 글자가 공백인 경우, 다음 글자를 확인하여 Letter인 경우 bNeedToCapital = true
+            {
+                answer += s[iIndex];
+
+                if (iIndex < s.Length - 1 == true) // 마지막 인덱스의 글자가 공백일 때, s[iIndex + 1] 부분에서 Exception 발생하므로 처리
+                {
+                    if (char.IsLetter(s[iIndex + 1]) == true)
+                    {
+                        bNeedToCapital = true;
+                    }
+                }
+            }
+
+            if (char.IsLetter(s[iIndex]) == true) // 현재 글자가 Letter인 경우, bNeedToCapital을 확인하여 answer에 추가
+            {
+                if (bNeedToCapital == true)
+                {
+                    answer += char.ToUpper(s[iIndex]);
+                    bNeedToCapital = false;
+                }
+                else // bNeedToCapital == false
+                {
+                    answer += char.ToLower(s[iIndex]);
+                }
+            }
+
+            if (char.IsDigit(s[iIndex]) == true) // 현재 글자가 Digit인 경우, answer에 추가하며 추가로 bNeedToCapital = false
+            {
+                answer += s[iIndex];
+                bNeedToCapital = false;
+            }
+
+            iIndex++; // 다음 인덱스로 이동
         }
 
-        return answer.Substring(0, answer.Length - 1); // 마지막 공백을 제외하고 출력
+        return answer;
     }
 }

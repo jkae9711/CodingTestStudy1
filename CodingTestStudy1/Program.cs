@@ -187,6 +187,8 @@ namespace CodingTestStudy1
 
             Console.WriteLine(test.solution("3people unFollowed me"));
             Console.WriteLine(test.solution("for the last week"));
+            Console.WriteLine(test.solution("                       3Found not found"));
+            Console.WriteLine(test.solution("                       first second"));
             Console.ReadLine();
 
             #endregion
