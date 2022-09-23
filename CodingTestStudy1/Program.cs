@@ -174,13 +174,31 @@ namespace CodingTestStudy1
 
             #region Week11_2
 
-            Week11_2 test = new Week11_2();
+            //Week11_2 test = new Week11_2();
 
-            Console.WriteLine(test.solution("CBD", new string[] { "BACDE", "CBADF", "AECB", "BDA" }));
+            //Console.WriteLine(test.solution("CBD", new string[] { "BACDE", "CBADF", "AECB", "BDA" }));
+            //Console.ReadLine();
+
+            #endregion
+
+            #region Week12_1
+
+            Week12_1 test = new Week12_1();
+
+            Console.WriteLine(test.solution("3people unFollowed me"));
+            Console.WriteLine(test.solution("for the last week"));
             Console.ReadLine();
 
             #endregion
 
+            #region Week12_2
+
+            //Week12_2 test = new Week12_2();
+
+            //Console.WriteLine(test.solution());
+            //Console.ReadLine();
+
+            #endregion
         }
     }
 }
