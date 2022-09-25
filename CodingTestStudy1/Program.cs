@@ -183,22 +183,23 @@ namespace CodingTestStudy1
 
             #region Week12_1
 
-            Week12_1 test = new Week12_1();
+            //Week12_1 test = new Week12_1();
 
-            Console.WriteLine(test.solution("3people unFollowed me"));
-            Console.WriteLine(test.solution("for the last week"));
-            Console.WriteLine(test.solution("                       3Found not found"));
-            Console.WriteLine(test.solution("                       first second"));
-            Console.ReadLine();
+            //Console.WriteLine(test.solution("3people unFollowed me"));
+            //Console.WriteLine(test.solution("for the last week"));
+            //Console.WriteLine(test.solution("                       3Found not found"));
+            //Console.WriteLine(test.solution("                       first second"));
+            //Console.ReadLine();
 
             #endregion
 
             #region Week12_2
 
-            //Week12_2 test = new Week12_2();
+            Week12_2 test = new Week12_2();
 
-            //Console.WriteLine(test.solution());
-            //Console.ReadLine();
+            //Console.WriteLine(test.solution(2));
+            Console.WriteLine(test.solution(3));
+            Console.ReadLine();
 
             #endregion
         }
