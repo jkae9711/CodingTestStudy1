@@ -1,5 +1,6 @@
 ﻿// Week12_2 : 하노이의 탑
 
+using System;
 using System.Collections.Generic;
 
 public class Week12_2
@@ -23,15 +24,21 @@ public class Week12_2
 
     public void Hanoi(int num, int start, int end, int by)
     {
+        Console.WriteLine(@"Called Hanoi({0}, {1}, {2}, {3})", num, start, end, by);
+
         if (num == 1)
         {
             lstMove.Add(new int[] { start, end });
+
+            Console.WriteLine(@"{0} ring start {1} to {2}", num, start, end);
         }
         else
         {
             Hanoi(num - 1, start, by, end);
 
             lstMove.Add(new int[] { start, end });
+
+            Console.WriteLine(@"{0} ring start {1} to {2}", num, start, end);
 
             Hanoi(num - 1, by, end, start);
         }

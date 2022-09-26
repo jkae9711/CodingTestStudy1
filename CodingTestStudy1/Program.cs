@@ -195,11 +195,32 @@ namespace CodingTestStudy1
 
             #region Week12_2
 
-            Week12_2 test = new Week12_2();
+            //Week12_2 test = new Week12_2();
 
             //Console.WriteLine(test.solution(2));
-            Console.WriteLine(test.solution(3));
+            //Console.WriteLine(test.solution(3));
+            //Console.WriteLine(test.solution(4));
+            //Console.ReadLine();
+
+            #endregion
+
+            #region Week13_1
+
+            Week13_1 test = new Week13_1();
+
+            Console.WriteLine(test.solution(5000));
+
             Console.ReadLine();
+
+            #endregion
+
+            #region Week13_2
+
+            //Week13_2 test = new Week13_2();
+
+            //Console.WriteLine(test.solution("JEROEN"));
+
+            //Console.ReadLine();
 
             #endregion
         }
